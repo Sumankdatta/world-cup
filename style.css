@@ -1,0 +1,57 @@
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+
+/* common-style */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* banner-section-style */
+.main {}
+
+.container {
+    margin-left: 13%;
+    width: 930px;
+    margin-top: 40px;
+
+}
+
+.top-banner {
+    display: flex;
+
+    background-color: black;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.top-title h1 {
+
+    font-size: 40px;
+    margin-right: 5%;
+
+}
+
+.top-banner img {
+    width: 120%;
+    align-items: center;
+    margin-left: 7%;
+
+}
+
+.top-banner a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.top-banner a li {
+    align-items: center;
+}
